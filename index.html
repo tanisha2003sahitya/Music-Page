@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Vibes Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav>
+        <div class="logo">Music Vibes</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 id="beat">Feel the Beat, <br> Live the Music</h1>
+            <p id="stream">Stream, download, and experience the best tracks from top artists worldwide.</p>
+            <a href="#features" class="btn">Explore Now</a>
+        </div>
+        <div class="music-player">
+            <audio controls>
+                <source src="music/your-audio-file.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h2>Why Choose Us?</h2>
+        <div class="features-container">
+            <div class="feature-box">
+                <i class="fas fa-music"></i>
+                <h3>Unlimited Music</h3>
+                <p>Access millions of songs, curated playlists, and personalized recommendations.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-broadcast-tower"></i>
+                <h3>Live Radio</h3>
+                <p>Listen to live radio stations from around the globe, in real time.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-headphones"></i>
+                <h3>High Quality</h3>
+                <p>Enjoy high-definition sound quality for a seamless music experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Artists Section -->
+    <section id="artists" class="artists-section">
+        <h2>Featured Artists</h2>
+        <div class="artists-gallery">
+            <div class="artist-card">
+                <img src="image/arjit singh.jpg" alt="Arjit">
+                <h3>Arjit Singh</h3>
+            </div>
+            <div class="artist-card">
+                <img src="image/diljit dosanjh.jpg" alt="Diljit">
+                <h3>Diljit Dosanjh</h3>
+            </div>
+            <div class="artist-card">
+                <img src="image/shreya ghoshal.jpg" alt="Shreya">
+                <h3>Shreya Ghoshal</h3>
+            </div>
+            <div class="artist-card">
+                <img src="image/kumar sanu.jpg" alt="Sanu">
+                <h3>Kumar Sanu</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Music Vibes. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
